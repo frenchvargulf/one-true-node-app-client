@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Main */
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  background-color:#000;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+
+.container{
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0,0,0,.1);
+  width: 100%;
+  max-width: 550px;
+  min-height: 100vh; 
+  height: 100%;
+  margin: 2em;
+  border-radius: 10px;
+  padding: 10px;
+  display:inline-block;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 900;
+
+}
+
+/* Form add */
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+
+.form{
+  width: 100%;
+
+
+}
+
+.adding-cnt h2{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form-el-cnt{
+  display: flex;
+  width: 100%;
+  padding: 5px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+label{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 200px;
+  margin-left: auto;
+}
+.page-nav-list{
+  list-style: none;
+  display: flex;
+}
+
+.page-nav-list li {
+  padding: 0 20px;
+}
+
+
+
+/* Show pets section */
+
+.list{}
+.list-element{}
+.edit-button{}
+.delete-button{}
+
+.list-container{
+  width: 100%;
+}
+
+
+
+.list-element span{
+  font-weight: 600;
+  padding-right: 10px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.list-element .edit, .list-element .delete{
+  padding: 0 5px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 7px;
+  margin: 10px 10px 10px 0;
+}
+
+.paw-svg{
+  width: 100px;
+  height: 100px;
+}
+
+.list-element .delete{
+  background-color: black;
+  color: #fff;
+  border: 1px solid black;
+}
+
+.list-element .delete:hover{
+  color:#000;
+  background-color:#fff;
+}
+
+.list-element .edit:hover{
+  background-color:#000;
+  color:#fff;
+}
+
+.ADD, .SHOW, .edit, .delete {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.add-pet-btn{
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 800;
+  border: 1px solid black;
+  padding: 5px 8px;
+  border-radius: 8px;
+  margin: 10px 0;
+  position: relative;
+}
