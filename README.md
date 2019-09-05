@@ -25,7 +25,6 @@ Boostrapped with creare-react-app.
 
 Many more to come including translations, which I am particulary excited about. 
 
-Realtime painting only works with server running locally, so in order to draw with a friend using my app it needs to be installed locally. 
 Please download a zip package and use npm i and then node server.js and npm start. And Have fun!
 
 ## Running the app
